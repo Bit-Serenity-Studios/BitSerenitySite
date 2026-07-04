@@ -20,9 +20,10 @@
   <p class="effective">Effective July 4, 2026</p>
 
   <div class="callout">
-    <p><strong>Our commitment:</strong> we do not sell your personal data. We collect
-    the minimum needed to run our games and reply to your emails, and we tell you
-    plainly what that is.</p>
+    <p><strong>Our commitment:</strong> our games are free, funded by ads (through
+    Google AdMob) and optional in-app purchases. We never sell your data to data
+    brokers or resellers, and you can turn off personalized advertising in your
+    device settings at any time.</p>
   </div>
 
   <p>
@@ -83,12 +84,15 @@
   <h2>2. Our games (baseline policy)</h2>
 
   <p>
-    Each Bit Serenity game will disclose its specific data-collection practices in
-    two places required by the stores: on Apple&rsquo;s
-    <em>App Privacy</em> section of the App Store listing (Apple&rsquo;s
-    &ldquo;privacy nutrition label&rdquo;) and in Google Play&rsquo;s
-    <em>Data safety</em> section. The following is the baseline that applies to all
-    our games unless a specific game&rsquo;s policy says otherwise.
+    Bit Serenity games are free to play. They are funded by two mechanisms: in-game
+    advertising served through <strong>Google AdMob</strong>, and optional in-app
+    purchases (&ldquo;microtransactions&rdquo;) processed by Apple StoreKit or
+    Google Play Billing. Each specific game discloses its data-collection practices
+    in the two places required by the stores: Apple&rsquo;s <em>App Privacy</em>
+    section of the App Store listing (Apple&rsquo;s &ldquo;privacy nutrition
+    label&rdquo;) and Google Play&rsquo;s <em>Data safety</em> section. The
+    following is the baseline that applies to all our games unless a specific
+    game&rsquo;s policy says otherwise.
   </p>
 
   <h3>2.1 Data types we may collect in games</h3>
@@ -98,13 +102,18 @@
     <li><strong>Product-interaction data</strong>: anonymized in-game events
       (screens viewed, features used, session length), used only to understand
       aggregate trends and improve the game.</li>
-    <li><strong>Purchase history</strong>: if you make an in-app purchase, we
-      receive the confirmation Apple or Google sends us. Your payment method is
-      handled entirely by Apple or Google, not by us.</li>
-    <li><strong>Identifiers</strong>: if a game shows advertising, it may use
-      the device&rsquo;s advertising identifier (IDFA on iOS, Advertising ID on
-      Android), subject to your device&rsquo;s tracking and personalized-ad settings.
-      Games that do not show ads do not use these identifiers.</li>
+    <li><strong>Purchase history</strong>: our games offer optional in-app
+      purchases, processed by Apple StoreKit or Google Play Billing. Your
+      payment method is handled entirely by Apple or Google; we receive only
+      the anonymized confirmation that a purchase succeeded, the product
+      identifier, and the price.</li>
+    <li><strong>Advertising identifiers</strong>: our games are ad-supported
+      and use Google AdMob, which processes the device&rsquo;s advertising
+      identifier (IDFA on iOS, Advertising ID on Android) to serve ads and
+      measure their performance. Whether those ads are personalized depends
+      on your device settings and your response to Apple&rsquo;s App Tracking
+      Transparency prompt; if you opt out, you still see ads, but they are not
+      personalized to you.</li>
     <li><strong>Support correspondence</strong>: if you email us for help,
       the contents of your email.</li>
   </ul>
@@ -115,6 +124,8 @@
     <li>To fix crashes and performance problems.</li>
     <li>To understand aggregate trends in how our games are used (research and
       analytics on the game overall; never to build a profile of you).</li>
+    <li>To show ads through Google AdMob and to measure ad performance. This
+      is how we fund the games.</li>
     <li>To process in-app purchases through Apple and Google.</li>
     <li>To respond to your support requests.</li>
     <li>To comply with legal obligations.</li>
@@ -122,21 +133,67 @@
 
   <h3>2.3 What we don&rsquo;t do</h3>
   <ul>
-    <li>We do not sell your personal data.</li>
-    <li>We do not share your personal data with third parties for their own marketing.</li>
-    <li>We do not track you across other companies&rsquo; apps or websites, and we
-      honor Apple&rsquo;s App Tracking Transparency and Android&rsquo;s
-      &ldquo;opt out of personalized ads&rdquo; setting.</li>
-    <li>We do not attempt to identify individual players from anonymized analytics.</li>
+    <li>We do not sell your data to data brokers, resellers, or third parties
+      for their own marketing.</li>
+    <li>We do not share your name, email address, or support conversations with
+      advertisers or anyone else.</li>
+    <li>We do not attempt to identify individual players from anonymized game
+      analytics.</li>
+    <li>We do not personalize ads for players who opt out via Apple&rsquo;s App
+      Tracking Transparency prompt or Android&rsquo;s ad-personalization
+      setting.</li>
+    <li>We do not operate our own advertising network; our games use Google
+      AdMob, and AdMob&rsquo;s data practices are governed by Google&rsquo;s
+      privacy policy.</li>
   </ul>
 
   <h3>2.4 Third-party services</h3>
   <p>
-    When a game ships, its App Store listing (App Privacy) and Google Play listing
-    (Data safety) will name each third-party SDK we use: for analytics, crash
-    reporting, or advertising, if any. Common services in that category include
-    Apple&rsquo;s App Analytics, Google Play Services, Firebase Crashlytics, and
-    similar. Each service&rsquo;s own privacy policy applies to the data it processes.
+    Every Bit Serenity game relies on a small set of third-party services. The
+    exact list for each game is disclosed in that game&rsquo;s App Store
+    (App Privacy) and Google Play (Data safety) sections; the standard set is:
+  </p>
+  <ul>
+    <li><strong>Google AdMob</strong> for in-game advertising. Google&rsquo;s
+      privacy policy is at
+      <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>,
+      and AdMob&rsquo;s ad-technology providers are listed at
+      <a href="https://support.google.com/admob/answer/9012903">support.google.com/admob</a>.</li>
+    <li><strong>Apple StoreKit</strong> and <strong>Google Play Billing</strong>
+      for in-app purchases. Governed by Apple&rsquo;s and Google&rsquo;s
+      respective privacy policies.</li>
+    <li><strong>Apple App Analytics</strong> and <strong>Google Play Console</strong>
+      for the aggregate game usage that Apple and Google provide to developers by
+      default.</li>
+    <li>A crash-reporting service (such as <strong>Firebase Crashlytics</strong>)
+      if the specific game uses one. This is listed on that game&rsquo;s store page.</li>
+  </ul>
+
+  <h3>2.5 Ad personalization and your choices</h3>
+  <p>
+    Some privacy laws (California&rsquo;s CCPA/CPRA and Colorado&rsquo;s CPA)
+    define &ldquo;selling&rdquo; or &ldquo;sharing&rdquo; personal information
+    broadly enough to include the use of advertising identifiers for personalized
+    ads. Under those definitions, using Google AdMob for personalized ads may
+    qualify as a &ldquo;sale&rdquo; or &ldquo;share&rdquo; of your data. You can
+    opt out at any time:
+  </p>
+  <ul>
+    <li><strong>On iOS:</strong> answer &ldquo;Ask App Not to Track&rdquo; when
+      the App Tracking Transparency prompt appears, or open
+      <em>Settings &rsaquo; Privacy &amp; Security &rsaquo; Tracking</em> and
+      disable &ldquo;Allow Apps to Request to Track.&rdquo;</li>
+    <li><strong>On Android:</strong> open <em>Settings &rsaquo; Google &rsaquo;
+      Ads</em> and turn on &ldquo;Opt out of Ads Personalization,&rdquo; or reset
+      your advertising ID.</li>
+    <li><strong>Anywhere:</strong> email
+      <a href="mailto:contact@bitserenitystudios.com">contact@bitserenitystudios.com</a>
+      with &ldquo;Do Not Sell or Share&rdquo; in the subject line, and we will
+      confirm the opt-out.</li>
+  </ul>
+  <p>
+    Opting out does not remove ads from our games (ads are how the games are
+    funded). It only stops those ads from being personalized to you.
   </p>
 
   <h2>3. Children&rsquo;s privacy</h2>

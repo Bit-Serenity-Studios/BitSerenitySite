@@ -101,6 +101,16 @@ a:hover, a:focus { text-decoration: underline; }
 .tile-title { color: var(--fg); font-weight: 600; margin: 0 0 0.4rem; font-size: 1.02rem; }
 .tile-note { font-size: 0.9rem; color: var(--muted); margin: 0; }
 
+.callout {
+  border-left: 3px solid var(--accent);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0 2rem;
+  background: rgba(111, 177, 255, 0.06);
+  border-radius: 0 8px 8px 0;
+}
+.callout p { color: var(--fg); margin: 0; }
+.callout strong { color: var(--accent); }
+
 .effective {
   font-size: 0.85rem;
   color: var(--muted);

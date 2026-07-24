@@ -86,14 +86,14 @@ main.landing { max-width: 800px; }
 /* mountain band (landing only) */
 .mountain-band {
   color: var(--accent);
-  opacity: 0.55;
-  margin: 1rem 0 2rem;
+  opacity: 0.7;
+  margin: 1rem 0 2.5rem;
 }
 .mountain-band svg {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 120px;
+  max-height: 170px;
 }
 
 /* section eyebrow */
@@ -281,8 +281,14 @@ footer.site-footer {
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
   display: flex;
-  gap: 1.25rem;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 2rem;
+}
+footer.site-footer .footer-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
   align-items: baseline;
 }
 footer.site-footer a {
@@ -290,4 +296,3 @@ footer.site-footer a {
   transition: color 160ms ease;
 }
 footer.site-footer a:hover, footer.site-footer a:focus-visible { color: var(--accent-strong); }
-footer .sep { opacity: 0.5; }

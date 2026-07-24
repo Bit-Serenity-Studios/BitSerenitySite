@@ -83,19 +83,6 @@ main.landing { max-width: 800px; }
 }
 .hero-inner { width: 100%; }
 
-/* mountain band (landing only) */
-.mountain-band {
-  color: var(--accent);
-  opacity: 0.7;
-  margin: 1rem 0 2.5rem;
-}
-.mountain-band svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: 170px;
-}
-
 /* section eyebrow */
 .kicker {
   text-transform: uppercase;
